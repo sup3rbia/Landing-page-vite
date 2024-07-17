@@ -1,0 +1,32 @@
+/* Fonts */
+$pColor: rgba(80, 95, 152, 1);
+$hColor: rgba(9, 17, 51, 1);
+$buttonTextColor: rgba(255, 255, 255, 1);
+
+/* General styles */
+p {
+   font-family: Roboto;
+   font-weight: 400;
+   font-size: 16px;
+   color: $pColor;
+}
+
+h1,h2,h3 {
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 36px;
+   color: $hColor;
+}
+
+button {
+   font-family: Roboto;
+   font-size: 12px;
+   font-weight: 500;
+   color: $buttonTextColor;
+}
+
+.navigation__text {
+   font-family: Roboto;
+   font-size: 14px;
+   font-weight: 400;
+}
